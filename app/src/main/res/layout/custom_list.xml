@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:id="@+id/card_view"
+    android:layout_margin="5dp"
+    android:layout_marginTop="10dp"
+    android:elevation="4dp"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/stateTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:fontFamily="@font/merienda_one"
+            android:gravity="center"
+            android:text="State"
+            android:textColor="#1F1919"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/confirmedTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"
+            android:fontFamily="@font/merienda_one"
+            android:gravity="center"
+            android:text="Confirm"
+            android:textColor="#DDA70606"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/activeTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/merienda_one"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Active"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/deathTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/merienda_one"
+            android:gravity="center"
+            android:text="Deaths"
+            android:textStyle="bold"
+            android:textColor="#0E7C12" />
+
+        <TextView
+            android:id="@+id/curedTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/merienda_one"
+            android:gravity="center"
+            android:text="Cured"
+            android:textStyle="bold"
+            android:textColor="@color/yellow" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
